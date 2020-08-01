@@ -1,16 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
+
+@font-face {
+    font-family: 'Mistral';
+    src: url('../fonts/Mistral.eot');
+    src: url('../fonts/Mistral.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Mistral.woff2') format('woff2'),
+        url('../fonts/Mistral.woff') format('woff'),
+        url('../fonts/Mistral.ttf') format('truetype'),
+        url('../fonts/Mistral.svg#Mistral') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    transition: all ease-in-out 250ms;
+}
 
 body {
+    background-image: url('../img/albums.jpeg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
     margin: 0;
-    
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 95%;
+    max-width: 70em;
+    margin: 0 auto;
+}
+
+/* Typography */
 
 .logo {
-    font-family: 'Pacifico', cursive;
-    font-size: 40px;
-    color: #BD0CE8;
-
+    font-family: 'Mistral';
+    font-size: 3em;
+    color: #FFFFFF;
+    letter-spacing: -0.001em;
+    text-align: center;
+    padding-left: 0.5em;
 }
 
-.logo:link, .logo:visited, .logo:hover, .logo:active{
+.logo:link, 
+.logo:visited {
     text-decoration: none;
 }
+
+.logo:hover,
+.logo:focus {
+    text-decoration: none;
+    color: #6594EC;
+}
+
+nav a:hover,
+nav a:focus {
+    color: #6594EC;
+    text-decoration: none;
+}
+
+/* Header */
+
+header {
+    position: absolute;
+    background-color: #000000;
+    left: 0;
+	right: 0;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+    list-style: none;
+    float: none;
+    position: absolute;
+    clear: right;
+    float: right;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+nav li {
+	display: inline-block;
+	margin: 1em;
+}
+
+nav a {
+	font-weight: 900;
+	text-decoration: none;
+	padding: .5em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-size: 1.2rem;
+}
+
+label {
+    margin: 0 0.2em 0 0;
+    font-size: 50px;
+    line-height: 70px;    
+    position: absolute;
+    float: right;
+    right: 0em;
+    top: 0em;
+    color: #FFFFFF;
+    display: none;
+}
+
+label:hover,
+label:focus {
+    color: #6594EC;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#toggle {
+    display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+    label {
+        display: block;
+        cursor: pointer;
+    }
+    nav ul {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    nav ul a {
+        display: block;
+        margin: 0;
+    }
+    #toggle:checked ~ nav ul {
+        display: block;
+    }
+}
+
+/* Body */
+
+.home-album {
+    background-image: url('../img/albums.jpeg');
+}
+
+
+
