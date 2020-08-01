@@ -1,0 +1,16 @@
+
+body {
+    margin: 0;
+    
+}
+
+.logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    color: #BD0CE8;
+
+}
+
+.logo:link, .logo:visited, .logo:hover, .logo:active{
+    text-decoration: none;
+}
