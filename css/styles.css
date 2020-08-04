@@ -214,6 +214,12 @@ label::after {
     }
 }
 
+/* @media only screen and (1700 - 1400, 1400 - 750) {
+    .cat {
+        transform: translate(-50%, 13%) scale(0.6);
+    }
+} */
+
 /* Body */
 
 .bg {
