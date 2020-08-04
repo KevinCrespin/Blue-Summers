@@ -7,41 +7,38 @@
     <title>Blue Summers</title>
     <link rel="stylesheet" href="css/styles.css"  type="text/css">
 
+
 </head>
 
 <body>
     <header>
         <a href="index.html" alt="Blue Summers Logo" class="logo">Blue Summers</a>
-        <nav class="nav">
+        <nav class="nav" id="nav">
             <ul>
                 <li><a href="index.html">LISTEN</a></li>
                 <li><a href="index.html">MERCH</a></li>
                 <li><a href="index.html">CONTACT</a></li>
             </ul>
         </nav>
-        <nav class="nav-mob">
-            <ul>
-                <li><a href="index.html">LISTEN</a></li>
-                <li><a href="index.html">MERCH</a></li>
-                <li><a href="index.html">CONTACT</a></li>
-            </ul>
-        </nav>
+        <picture class="bg">
+            <source srcset="img/album-mob.png" media="(max-width: 750px)">
+            <source srcset="img/album.jpg">
+            <img src="img/album.jpg" alt="bg">
+        </picture>
+
+        <picture class="cat">
+            <img src="img/cat.png" alt="cat">
+        </picture>
     </header>
 
-    <input id="toggle" type="checkbox"/>
+    <input id="toggle" type="checkbox" onclick="burgerFunction()"/>
     <label for="toggle"></label>
 
-    <section class="home-album">
-        <img src="img/album.jpg" alt="When Will I become a v. pretty cat">
-        <div class="container">
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <p> 2020 Blue Summers</p>
-        </div>
+    <footer class="footer">
+        <p></p>
     </footer> 
 
 </body>
+
+<script src="scripts/script.js"></script>
 </html>
