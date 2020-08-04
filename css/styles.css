@@ -11,6 +11,33 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std';
+    src: url('../fonts/MITCAvantGardeStd-Md.eot');
+    src: url('../fonts/MITCAvantGardeStd-Md.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MITCAvantGardeStd-Md.woff2') format('woff2'),
+        url('../fonts/MITCAvantGardeStd-Md.woff') format('woff'),
+        url('../fonts/MITCAvantGardeStd-Md.ttf') format('truetype'),
+        url('../fonts/MITCAvantGardeStd-Md.svg#ITCAvantGardeStd-Md') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std Book';
+    src: url('../fonts/MITCAvantGardeStd-Bk.eot');
+    src: url('../fonts/MITCAvantGardeStd-Bk.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MITCAvantGardeStd-Bk.woff2') format('woff2'),
+        url('../fonts/MITCAvantGardeStd-Bk.woff') format('woff'),
+        url('../fonts/MITCAvantGardeStd-Bk.ttf') format('truetype'),
+        url('../fonts/MITCAvantGardeStd-Bk.svg#ITCAvantGardeStd-Bk') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 body, html {
     background-color: #000000;
     width: 100%;
@@ -21,12 +48,6 @@ body, html {
 img {
     max-width: 100%;
     height: auto;
-}
-
-.container {
-    width: 95%;
-    max-width: 70em;
-    margin: 0 auto;
 }
 
 /* Typography */
@@ -48,17 +69,17 @@ img {
 .logo:hover,
 .logo:focus {
     text-decoration: none;
-    color: #f1d3f1;
+    color: #DC2935;
 }
 
 nav a:hover,
 nav a:focus {
-    color: #f1d3f1;
+    color: #DC2935;
     text-decoration: none;
 }
 
 nav {
-    font-family: Helvetica;
+    font-family: 'ITC Avant Garde Gothic Std';
 }
 
 
@@ -155,13 +176,13 @@ label::after {
 #toggle:checked + label::before {
     transform: rotate(45deg) translate(0px);
     -webkit-transform: rotate(45deg) translate(0px);
-    background: #E49CE5;
+    background: #DC2935
 }
 
 #toggle:checked + label::after {
     transform: rotate(-45deg) translate(0px);
     -webkit-transform: rotate(-45deg) translate(0px);
-    background: #8DAAF2;
+    background: #DC2935
 }
 
 /* Media Queries */ 
@@ -221,16 +242,12 @@ label::after {
     }
 }
 
-/* Body */
-
-
 /* Footer */ 
 
-
 .footer {
-    position: fixed;
-    z-index: 30;
-    left: 0;
-    bottom: 0;
     width: 100%;
-  }
+    max-width: 100%;
+    margin: 0 0 0 0;
+    background-color: #8DAAF2;
+    height: 500px;
+}
