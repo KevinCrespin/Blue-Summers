@@ -190,35 +190,17 @@ label::after {
     .footer {
         height: 40%;
     }
-    
-    .cat {
-        transform: translate(-50%, 68%) scale(0.6);
-    }
 }
 
 /* Wide */
 
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: 751px) {
     label, 
     label::before,
     label::after {
         visibility: hidden;
     }
-
-    .footer {
-        height: 40%;
-    }
-
-    .cat {
-        transform: translate(-50%, 13%) scale(0.6);
-    }
 }
-
-/* @media only screen and (1700 - 1400, 1400 - 750) {
-    .cat {
-        transform: translate(-50%, 13%) scale(0.6);
-    }
-} */
 
 /* Body */
 
@@ -233,6 +215,7 @@ label::after {
     z-index: 3;
     top: 50%;
     left: 50%;
+    visibility: hidden;
 }
 
 /* Footer */ 
