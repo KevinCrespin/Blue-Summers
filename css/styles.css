@@ -267,13 +267,13 @@ p span {
     border-color: #fd475d;
 }
 
-.social {
+.icon {
     position: absolute;
     cursor: pointer;
 }
 
-.social:hover,
-.social:focus {
+.icon:hover,
+.icon:focus {
     filter: opacity(0.6);
 }
 
