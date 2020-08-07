@@ -267,37 +267,37 @@ p span {
     border-color: #fd475d;
 }
 
-.icon {
+.social {
     position: absolute;
     cursor: pointer;
 }
 
-.icon:hover,
-.icon:focus {
+.social:hover,
+.social:focus {
     filter: opacity(0.6);
 }
 
-.twitter {
+.t {
     transform: translate(-70%, -14%) scale(0.12);
 }
 
-.facebook {
+.f {
     transform: translate(-50%, -14%) scale(0.12);
 }
 
-.instagram {
+.i {
     transform: translate(-30%, -14%) scale(0.12);
 }
 
-.youtube {
+.y {
     transform: translate(-70%, -34%) scale(0.12);
 }
 
-.spotify {
+.s {
     transform: translate(-50%, -34%) scale(0.12);
 }
 
-.bandcamp {
+.b {
     transform: translate(-30%, -34%) scale(0.12);
 }
 
