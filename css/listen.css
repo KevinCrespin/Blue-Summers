@@ -192,15 +192,14 @@ label::after {
         margin: 0;
     }
 
-    .right {
+    .left {
         flex: 1;
         background-color: black;
-        transition: 1s;
         background-image: url('../img/album-mob1.png');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-      }
+    }
 
     .footer {
         max-width: 100%;
@@ -247,10 +246,9 @@ label::after {
         visibility: hidden;
     }
 
-    .right {
+    .left {
         flex: 1;
         background-color: black;
-        transition: 1s;
         background-image: url('../img/album1.jpg');
         background-size: cover;
         background-repeat: no-repeat;
@@ -295,103 +293,21 @@ label::after {
 
 /* Body */
 
-
-
-.form-container {
+.player-container {
     display: flex;
     height: 93vh;
 }
 
-.left {
+.right {
     overflow: hidden;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    animation-name: left;
+    animation-name: right;
     animation-duration: 1s;
     animation-fill-mode: both;
     animation-delay: 1s;
-}
-
-h2 {
-    margin: 0;
-    letter-spacing: 0.1rem;
-    color: #EA1F37;
-}
-
-h4 {
-    margin-top: 10px;
-    font-weight: normal;
-    font-size: 15px;
-    color: #FFFFFF;
-}
-
-.form {
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-.form > p {
-    text-align: right;
-}
-
-.form > p > a {
-    color: #FFFFFF;
-    font-size: 14px;
-}
-
-.form-field {
-    height: 46px;
-    padding: 0 16px;
-    border: 2px solid #FFFFFF;
-    border-radius: 4px;
-    font-family: 'ITC Avant Garde Gothic Std';
-    letter-spacing: 0.1rem;
-    outline: 0;
-    transition: .2s;
-    margin-top: 20px;
-}
-
-.form-field-box {
-    background-color: #FFFFFF;
-    height: 100px;
-    padding: 16px 16px;
-    border: 2px solid #FFFFFF;
-    border-radius: 4px;
-    font-family: 'ITC Avant Garde Gothic Std';
-    letter-spacing: 0.1rem;
-    outline: 0;
-    transition: .2s;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.form-field:focus, .form-field-box:focus {
-    border-color: #EA1F37;
-}
-
-.button {
-    text-align: center;
-    display: inline-block;
-    font-size: 1.15rem;
-    text-decoration: none;
-    text-transform: uppercase;
-    border-width: 2px;
-    border-style: solid;
-    padding: .5em 1.75em;
-}
-
-.button-accent {
-    color: #EA1F37;
-    border-color: #EA1F37;
-}
-
-.button:hover, 
-.button:focus {
-    color: #fd475d;
-    border-color: #fd475d;
 }
 
 .animation {
@@ -399,30 +315,6 @@ h4 {
     animation-duration: .4s;
     animation-fill-mode: both;
     animation-delay: 2s;
-}
-
-.a1 {
-    animation-delay: 2s;
-}
-
-.a2 {
-    animation-delay: 2.1s;
-}
-
-.a3 {
-    animation-delay: 2.2s;
-}
-
-.a4 {
-    animation-delay: 2.3s;
-}
-
-.a5 {
-    animation-delay: 2.4s;
-}
-
-.a6 {
-    animation-delay: 2.5s;
 }
 
 @keyframes move {
@@ -439,7 +331,7 @@ h4 {
     }
 }
 
-@keyframes left {
+@keyframes right {
     0% {
         opacity: 0;
         width: 0;

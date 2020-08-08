@@ -1,3 +1,5 @@
+
+
 function burgerFunction() {
     var burgerMenu = document.getElementById("toggle");
     var nav = document.getElementById("nav");
