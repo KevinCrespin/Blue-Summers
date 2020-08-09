@@ -399,6 +399,13 @@ h4 {
     animation-delay: 2s;
 }
 
+.animation1 {
+    animation-name: move;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 2s;
+}
+
 .a1 {
     animation-delay: 2s;
 }
@@ -406,6 +413,11 @@ h4 {
 .a2 {
     animation-delay: 2.1s;
 }
+
+.a3 {
+    animation-delay: 4.2s;
+}
+
 
 @keyframes move {
     0% {

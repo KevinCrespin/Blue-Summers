@@ -24,14 +24,14 @@
         <div class="left">
           <div class="header">
             <h2 class="animation a1">Write to us ~</h2>
-            <h4 class="animation a2">For booking and press, or simply to say hi♥</h4>
+            <h4 class="animation a2">For booking and press, or simply to say hi <3</h4>
           </div>
-          <div class="form">
-            <input type="name" class="form-field animation a3" placeholder="Your name">
-            <input type="email" class="form-field animation a4" placeholder="Your email address">
-            <textarea type="message" class="form-field-box animation a5" placeholder="Whatever you want ~" rows="6" cols="50" required></textarea>
-            <a class="button button-accent animation a6">SEND</a>
-          </div>
+          <form class="form" id="form" action="https://formspree.io/xlepvdnk" method="POST">
+            <input type="text" name="name" class="form-field animation a3" placeholder="Your name">
+            <input type="email" name="_replyto" class="form-field animation a4" placeholder="Your email address">
+            <textarea name="message" class="form-field-box animation a5" placeholder="Whatever you want ~" rows="6" cols="50" required></textarea>
+            <a href="javascript:{}" onclick="document.getElementById('form').submit(); return false;" class="button button-accent animation a6">SEND</a>
+          </form>
         </div>
         <div class="right"></div>
     </div>
