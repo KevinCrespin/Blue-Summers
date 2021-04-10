@@ -10,8 +10,6 @@ const burgerFunction = () => {
     }
 }
 
-document.body.style.display = "none"
-
 window.addEventListener("load", () => {
     document.body.style.display = "block"
     alert("loaded");
