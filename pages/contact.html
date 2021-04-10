@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html> 
+<html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        
+
     <title>Blue Summers</title>
     <link rel="preload stylesheet" href="../css/font-face.css" type="text/css" as="style">
-    <link rel="stylesheet" href="../css/contact.css"  type="text/css">
+    <link rel="stylesheet" href="../css/contact.css" type="text/css">
     <link rel="icon" href="../img/icon/favicon.png" type="image/png" sizes="any">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -23,37 +24,41 @@
 
     <div class="form-container">
         <div class="left">
-          <div class="header">
-            <h2 class="animation a1">Write to us ~</h2>
-            <h4 class="animation a2">For booking and press, or simply to say hi <3</h4>
-          </div>
-          <form class="form" id="form" action="https://formspree.io/xlepvdnk" method="POST">
-            <input type="text" name="name" class="form-field animation a3" placeholder="Your name">
-            <input type="email" name="_replyto" class="form-field animation a4" placeholder="Your email address">
-            <textarea name="message" class="form-field-box animation a5" placeholder="Whatever you want ~" rows="6" cols="50" required></textarea>
-            <a href="javascript:{}" onclick="document.getElementById('form').submit(); return false;" class="button button-accent animation a6">SEND</a>
-          </form>
+            <div class="header">
+                <h2 class="animation a1">Write to us ~</h2>
+                <h4 class="animation a2">For booking and press, or simply to say hi <3</h4> </div> <form class="form"
+                        id="form" action="https://formspree.io/xlepvdnk" method="POST">
+                        <input type="text" name="name" class="form-field animation a3" placeholder="Your name">
+                        <input type="email" name="_replyto" class="form-field animation a4"
+                            placeholder="Your email address">
+                        <textarea name="message" class="form-field-box animation a5" placeholder="Whatever you want ~"
+                            rows="6" cols="50" required></textarea>
+                        <a href="javascript:{}" onclick="document.getElementById('form').submit(); return false;"
+                            class="button button-accent animation a6">SEND</a>
+                        </form>
+            </div>
+            <div class="right"></div>
         </div>
-        <div class="right"></div>
-    </div>
-      
-    <footer class="footer">
-        <div class="container icon-container">
-            <a href="https://twitter.com/Bluesummers9/"><img src="../img/icon/t.png" class="icon t"></a>
-            <a href="https://www.facebook.com/matthew.marquez.39794"><img src="../img/icon/f.png" class="icon f"></a>
-            <a href="https://www.instagram.com/blue_summers_/"><img src="../img/icon/i.png" class="icon i"></a>
-            <a href=""><img src="../img/icon/s.png" class="icon s"></a>
-            <a href="https://bluesummers.bandcamp.com/"><img src="../img/icon/b.png" class="icon b"></a>
-            <a href="https://www.youtube.com/channel/UCZq-qj-y8a_OeUC-z4VdPvA"><img src="../img/icon/y.png" class="icon y"></a>
-        </div>
-        <p class="empty"></p>
-        <p class="copyright">© 2020 Blue Summers</p>
-    </footer> 
 
-    <input id="toggle" type="checkbox" onclick="burgerFunction()"/>
-    <label for="toggle"></label>
+        <footer class="footer">
+            <div class="container icon-container">
+                <a href="https://twitter.com/Bluesummers9/"><img src="../img/icon/t.png" class="icon t"></a>
+                <a href="https://www.facebook.com/matthew.marquez.39794"><img src="../img/icon/f.png"
+                        class="icon f"></a>
+                <a href="https://www.instagram.com/blue_summers_/"><img src="../img/icon/i.png" class="icon i"></a>
+                <a href=""><img src="../img/icon/s.png" class="icon s"></a>
+                <a href="https://bluesummers.bandcamp.com/"><img src="../img/icon/b.png" class="icon b"></a>
+                <a href="https://www.youtube.com/channel/UCZq-qj-y8a_OeUC-z4VdPvA"><img src="../img/icon/y.png"
+                        class="icon y"></a>
+            </div>
+            <p class="copyright">© 2020 Blue Summers</p>
+        </footer>
+
+        <input id="toggle" type="checkbox" onclick="burgerFunction()" />
+        <label for="toggle"></label>
 
 </body>
 
 <script src="../scripts/script.js"></script>
+
 </html>
