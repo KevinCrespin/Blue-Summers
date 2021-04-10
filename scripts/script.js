@@ -9,19 +9,20 @@ const burgerFunction = () => {
         nav.style.display = "none";
     }
 }
+let DOMLoaded = false;
+let fontsLoaded = false;
 
 window.addEventListener("load", () => {
-    document.body.style.display = "block"
-    alert("loaded");
+    DOMLoaded = true;
+    if (DOMLoaded && fontsLoaded) {
+        document.body.style.display = "block"
+    }
 })
 
+document.fonts.ready.then(() => {
+    fontsLoaded = true
 
-const checkImagesLoaded = () => {
-    let dic = {};
-    document.querySelectorAll("img").forEach((img, i) => {
-        dic[i] = img.complete;
-    });
-    console.log(dic)
-}
-
-window.setInterval(updateDictionaty, 100);
+    if (DOMLoaded && fontsLoaded) {
+        document.body.style.display = "block"
+    }
+});
