@@ -2,14 +2,14 @@
 # Blue-Summers
 
 A fully responsive website built for the indie band [Blue Summers](https://bluesummers.bandcamp.com/).</br>
-Built entirely on HTML, CSS, and non-zero percent Javascript.<br>
+Built entirely on CSS, HTML, and non-zero percent Javascript.<br>
 
 ### Go to the Website
 https://blue-summers.netlify.app/
 
 ### Screen Shots
 
-![Website Mobile](2.png)
+![Website](1.png)
 
 ### The band
 
