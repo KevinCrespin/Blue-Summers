@@ -9,6 +9,7 @@ const burgerFunction = () => {
         nav.style.display = "none";
     }
 }
+
 let DOMLoaded = false;
 let fontsLoaded = false;
 
