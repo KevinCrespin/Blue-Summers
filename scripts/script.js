@@ -1,6 +1,7 @@
-function burgerFunction() {
-    var burgerMenu = document.getElementById("toggle");
-    var nav = document.getElementById("nav");
+// Burger toggle
+const burgerFunction = () => {
+    const burgerMenu = document.getElementById("toggle");
+    const nav = document.getElementById("nav");
 
     if (burgerMenu.checked == true) {
         nav.style.display = "block";
@@ -9,30 +10,24 @@ function burgerFunction() {
     }
 }
 
-$(document).ready(function () {
+// Hide body until all images load with JQuery
+$(document).ready(() => {
     document.body.style.display = "none"
-    // Images loaded is zero because we're going to process a new set of images.
-    var imagesLoaded = 0
-    // Total images is still the total number of <img> elements on the page.
-    var totalImages = $("img").length
+    let imagesLoaded = 0;
+    const totalImages = $("img").length;
 
-    // Step through each image in the DOM, clone it, attach an onload event
-    // listener, then set its source to the source of the original image. When
-    // that new image has loaded, fire the imageLoaded() callback.
-    $("img").each(function (idx, img) {
-        $("<img>").on("load", imageLoaded).attr("src", $(img).attr("src"))
-    })
-
-    // Do exactly as we had before -- increment the loaded count and if all are
-    // loaded, call the allImagesLoaded() function.
-    function imageLoaded() {
-        imagesLoaded++
+    const imageLoaded = () => {
+        imagesLoaded++;
         if (imagesLoaded == totalImages) {
-            allImagesLoaded()
+            allImagesLoaded();
         }
     }
 
-    function allImagesLoaded() {
-        document.body.style.display = "block"
+    $("img").each((_, img) => {
+        $("<img>").on("load", imageLoaded).attr("src", $(img).attr("src"));
+    });
+
+    const allImagesLoaded = () => {
+        document.body.style.display = "block";
     }
 })
