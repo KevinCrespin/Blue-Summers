@@ -6,10 +6,6 @@ Built entirely on HTML, CSS, and non-zero percent Javascript.<br>
 #### Go to the Website
 https://blue-summers.netlify.app/
 
-Design and execution by
-
-* **Kevin Crespin** - [GitHub](https://github.com/KevinCrespin)
-
 Band
 
 * **Blue Summers** - [Listen here](https://bluesummers.bandcamp.com/)
