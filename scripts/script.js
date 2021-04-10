@@ -14,6 +14,7 @@ document.body.style.display = "none"
 
 window.addEventListener("load", () => {
     document.body.style.display = "block"
+    alert("loaded");
 })
 
 
@@ -33,8 +34,6 @@ window.setInterval(updateDictionaty, 100);
 
 document.addEventListener("DOMContentLoaded", () => {
     document.body.style.display = "block"
-
-    checkIfImagesLoaded();
 })
 
 // const checkIfImagesLoaded = () => {
