@@ -1,12 +1,1 @@
-@font-face {
-    font-family: 'ITC Avant Garde Gothic Std';
-    src: url('../fonts/ITCAvantGardeStd-Md.eot');
-    src: url('../fonts/ITCAvantGardeStd-Md.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/ITCAvantGardeStd-Md.woff2') format('woff2'),
-        url('../fonts/ITCAvantGardeStd-Md.woff') format('woff'),
-        url('../fonts/ITCAvantGardeStd-Md.ttf') format('truetype'),
-        url('../fonts/ITCAvantGardeStd-Md.svg#ITCAvantGardeStd-Md') format('svg');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');

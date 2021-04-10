@@ -21,7 +21,7 @@ img {
 /* Typography */
 
 body {
-    font-family: 'ITC Avant Garde Gothic Std';
+    font-family: 'Poppins', sans-serif;
 }
 
 .logo {
@@ -57,7 +57,6 @@ nav a:focus {
 }
 
 nav {
-    font-family: 'ITC Avant Garde Gothic Std';
     letter-spacing: 0.17em;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -347,7 +346,6 @@ h4 {
     padding: 0 16px;
     border: 2px solid #FFFFFF;
     border-radius: 4px;
-    font-family: 'ITC Avant Garde Gothic Std';
     letter-spacing: 0.1rem;
     outline: 0;
     transition: .2s;
@@ -360,7 +358,6 @@ h4 {
     padding: 16px 16px;
     border: 2px solid #FFFFFF;
     border-radius: 4px;
-    font-family: 'ITC Avant Garde Gothic Std';
     letter-spacing: 0.1rem;
     outline: 0;
     transition: .2s;
