@@ -10,6 +10,12 @@ const burgerFunction = () => {
     }
 }
 
+document.body.style.display = "none"
+
+window.addEventListener("load", () => {
+    document.body.style.display = "block"
+})
+
 
 const updateDictionaty = () => {
     let dic = {};
@@ -25,11 +31,10 @@ const updateDictionaty = () => {
 
 window.setInterval(updateDictionaty, 100);
 
-// Hide body until all images load
 document.addEventListener("DOMContentLoaded", () => {
     document.body.style.display = "block"
 
-    // checkIfImagesLoaded();
+    checkIfImagesLoaded();
 })
 
 // const checkIfImagesLoaded = () => {
