@@ -16,34 +16,12 @@ window.addEventListener("load", () => {
 })
 
 
-const updateDictionaty = () => {
+const checkImagesLoaded = () => {
     let dic = {};
-
     document.querySelectorAll("img").forEach((img, i) => {
         dic[i] = img.complete;
     });
-
     console.log(dic)
-
-    return dic;
 }
 
 window.setInterval(updateDictionaty, 100);
-
-document.addEventListener("DOMContentLoaded", () => {
-    document.body.style.display = "block"
-})
-
-// const checkIfImagesLoaded = () => {
-//     const imagesLoaded = updateDictionaty();
-//     console.log(imagesLoaded);
-
-//     document.querySelectorAll("img").forEach((img) => {
-//         if (imagesLoaded[img] === false) {
-//             // await new Promise(resolve => setTimeout(resolve, 3000));
-//             // checkIfImagesLoaded()
-//         } else {
-//             document.body.style.display = "block";
-//         }
-//     });
-// }
