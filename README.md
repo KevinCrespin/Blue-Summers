@@ -9,7 +9,7 @@ https://blue-summers.netlify.app/
 
 ### Screen Shots
 
-![Website Mobile](2.png)
+![Website](1.png)
 
 ### The band
 
