@@ -1,4 +1,4 @@
-// Burger toggle
+// Burger menu toggle
 const burgerFunction = () => {
     const burgerMenu = document.getElementById("toggle");
     const nav = document.getElementById("nav");
@@ -10,11 +10,17 @@ const burgerFunction = () => {
     }
 }
 
-// Hide body until all images load with JQuery
-$(document).ready(() => {
+// Hide body until all images load
+document.addEventListener("DOMContentLoaded", () => {
     document.body.style.display = "none"
     let imagesLoaded = 0;
-    const totalImages = $("img").length;
+    const totalImages = document.querySelectorAll("img").length;
+
+    const allImagesLoaded = () => {
+        console.log(document.body.style.display)
+        document.body.style.display = "block";
+        console.log(document.body.style.display)
+    }
 
     const imageLoaded = () => {
         imagesLoaded++;
@@ -23,11 +29,9 @@ $(document).ready(() => {
         }
     }
 
-    $("img").each((_, img) => {
-        $("<img>").on("load", imageLoaded).attr("src", $(img).attr("src"));
+    document.querySelectorAll("img").forEach((img) => {
+        const image = document.createElement("img")
+        image.setAttribute("onload", imageLoaded());
+        image.setAttribute("src", img.src);
     });
-
-    const allImagesLoaded = () => {
-        document.body.style.display = "block";
-    }
 })
