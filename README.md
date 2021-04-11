@@ -17,14 +17,7 @@ https://blue-summers.netlify.app/
 
 ## Technologies Used
 
-* CSS, CSS Media Queries, and CSS Animations
-* JavaScript ES6
+* JavaScript ES6, HTML, and CSS
+* CSS Media Queries and Animations
 * DOM Manipulation
-* Mobile and Desktop screen responsiveness
-
-## What to Improve
-
-* The website is too simple and repetitive.
-* A single html and css file could have been used.
-* React or Angular could have been a perfect tool for this project.
-
+* Screen Responsiveness 
