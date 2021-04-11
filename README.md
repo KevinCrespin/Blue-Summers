@@ -20,6 +20,7 @@ https://blue-summers.netlify.app/
 * Fundamentals of CSS, CSS Media Queries, and CSS Animations.
 * Fundamentals of JavaScript ES6.
 * Fundamentals of DOM Manipulation with JavaScript ES6.
+* Fundamentals of Screen Responsiveness
 
 ## The problems
 
