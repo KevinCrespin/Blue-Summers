@@ -16,14 +16,14 @@ let fontsLoaded = false;
 window.addEventListener("load", () => {
     DOMLoaded = true;
     if (DOMLoaded && fontsLoaded) {
-        document.body.style.display = "block"
+        document.body.style.display = "block";
     }
 })
 
 document.fonts.ready.then(() => {
-    fontsLoaded = true
+    fontsLoaded = true;
 
     if (DOMLoaded && fontsLoaded) {
-        document.body.style.display = "block"
+        document.body.style.display = "block";
     }
 });
