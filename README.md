@@ -15,22 +15,16 @@ https://blue-summers.netlify.app/
 
 [Blue Summers](https://bluesummers.bandcamp.com/) is a indie rock band formed in Los Angeles. The group is conformed by Jimmy, Josh, Eric, and Matt. 
 
-## The learned 
+## Technologies Used
 
-* Fundamentals of CSS, CSS Media Queries, and CSS Animations.
-* Fundamentals of JavaScript ES6.
-* Fundamentals of DOM Manipulation with JavaScript ES6.
-* Fundamentals of Screen Responsiveness
+* CSS, CSS Media Queries, and CSS Animations
+* JavaScript ES6
+* DOM Manipulation
+* Mobile and Desktop screen responsiveness
 
-## The problems
+## What to Improve
 
 * The website is too simple and repetitive.
 * A single html and css file could have been used.
 * React or Angular could have been a perfect tool for this project.
-
-## What to improve in later projects
-
-* Create a more interesting UI.
-* Avoid repiting code among files.
-* Use React.
 
