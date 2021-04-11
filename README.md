@@ -26,4 +26,10 @@ https://blue-summers.netlify.app/
 * The website is too simple and repetitive.
 * A single html and css file could have been used.
 * React or Angular could have been a perfect tool for this project.
-* This project will likely **not** be revisited, but problems should be improved in later projects.
+
+## What to improve in later projects
+
+* Create a more interesting UI.
+* Avoid repiting code among files.
+* Use React.
+
