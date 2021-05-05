@@ -7,10 +7,6 @@ Built entirely on CSS, HTML, and non-zero percent JavaScript.<br>
 ## Go to the Website
 https://blue-summers.netlify.app/
 
-## Screen Shots
-
-![Website](1.png)
-
 ## The band
 
 [Blue Summers](https://bluesummers.bandcamp.com/) is a indie rock band formed in Los Angeles. The group is conformed by Jimmy, Josh, Eric, and Matt. 
