@@ -17,7 +17,6 @@ https://blue-summers.netlify.app/
 
 ## Technologies Used
 
-* JavaScript ES6, HTML, and CSS
-* CSS Media Queries and Animations
-* DOM Manipulation
-* Screen Responsiveness 
+* JavaScript 
+* HTML
+* CSS
